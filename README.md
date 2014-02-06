@@ -37,7 +37,7 @@ In your web page:
 
 ### Demos
 
-Check out the [`test/functional/`](http://htmlpreview.github.io/?https://github.com/ronaldjadams/responsive-carousel-clicktracking/test/functional/) directory for demos.
+Check out the [`test/functional/`](http://htmlpreview.github.io/?https://raw.github.com/ronaldjadams/responsive-carousel-clicktracking/master/test/functional/default.html) directory for demo.
 
 ## Authors
 
