@@ -7,10 +7,13 @@ This plugin will simply push tracking parameters into Google Analytics `_gaq` ob
 
 ## Getting Started
 
-* Add Google Analytics
-* Add jQuery
-* Add [Filamentgroup responsive-carousel](https://github.com/filamentgroup/responsive-carousel/) javascript and CSS.
-* Add this responsive-carousel.clicktracking.js
+* Add Google Analytics to page
+* Install (Easy)
+  * `bower install responsive-carousel-clicktracking` if you're using [Bower](http://bower.io)
+* Install (Manually)
+  * Add jQuery
+  * Add [Filamentgroup responsive-carousel](https://github.com/filamentgroup/responsive-carousel/)
+* Add dependencies and this responsive-carousel.clicktracking.js to page
 * Modify the `data-clicktracking-*` parameters to be passed int the `_gaq`.
 
 In your web page:
