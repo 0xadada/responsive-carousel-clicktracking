@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Responsive Carousel Demo Page</title>
     <!-- Load local jQuery, removing access to $ (use jQuery, not $). -->
-    <script src="http://filamentgroup.github.io/responsive-carousel/libs/jquery/jquery.js"></script>
-    <link rel="stylesheet" href="http://filamentgroup.github.io/responsive-carousel/src/responsive-carousel.css" media="screen">
-    <link rel="stylesheet" href="../assets/demostyles.css">
-    <!-- Load local lib and tests. -->
-    <script src="http://filamentgroup.github.io/responsive-carousel/src/responsive-carousel.js"></script>
+    <script src="../../bower_components/jquery/jquery.min.js"></script>
+    <script src="../../bower_components/filementgroup-responsive-carousel/src/responsive-carousel.js"></script>
+    <link rel="stylesheet" href="../../bower_components/filementgroup-responsive-carousel/src/responsive-carousel.css" media="screen">
+    <link rel="stylesheet" href="../../bower_components/filementgroup-responsive-carousel/test/assets/demostyles.css">
+    <!-- Load local lib. -->
     <script src="../../src/responsive-carousel.clicktracking.js"></script>
     <script type="text/javascript">
-        window._gaq = []; /* mocked Google Analytics tracking array, on a real
-                           * system this will be an object
-                          */
-        // override the array push to output log entries to our list
-        window._gaq.push = function( array ) {
-            $( '#log' ).append( '<li>' + array.join( ', ' ) + '</li>' );
-        }
+        window._gaq = {
+            // override the array push to output log entries to our list
+            push : function( array ) {
+                $( '#log' ).append( '<li>' + array.join( ', ' ) + '</li>' );
+            }
+        }; 
         // start the carousel on document ready
         (function( $ ) {
             // DOM-ready auto-init
@@ -34,13 +33,13 @@
         data-click-tracking-next="User action,image_arrow,next"
         data-click-tracking-prev="User action,image_arrow,prev">
         <div>
-            <img src="../assets/large.jpg">
+            <img src="../../bower_components/filementgroup-responsive-carousel/test/assets/large.jpg">
         </div>
         <div>
-            <img src="../assets/monks.jpg">
+            <img src="../../bower_components/filementgroup-responsive-carousel/test/assets/monks.jpg">
         </div>
         <div>
-            <img src="../assets/monkey.jpg">
+            <img src="../../bower_components/filementgroup-responsive-carousel/test/assets/monkey.jpg">
         </div>
     </div>
     <p>Press Prev/Next to see events added to the click tracker below</p>
