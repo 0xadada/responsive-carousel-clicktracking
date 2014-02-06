@@ -37,14 +37,14 @@ In your web page:
 
 ### Demos
 
-Check out the [`test/functional/`](http://ronaldjadams.github.com/responsive-carousel-clicktracking/test/functional/) directory for demos.
+Check out the [`test/functional/`](http://htmlpreview.github.io/?https://github.com/ronaldjadams/responsive-carousel-clicktracking/test/functional/) directory for demos.
 
 ## Authors
 
 * [Ron. Adams](https://github.com/ronaldjadams) - [@ronaldjadams](http://twitter.com/ronaldjadams)
 * Created at [Nara Logics](http://nara.me/)
 
-## Licence
+## License
 
 Copyright 2014 Ron. Adams
 
