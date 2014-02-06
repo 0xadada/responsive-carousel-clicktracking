@@ -1,0 +1,10 @@
+{
+  "name": "responsive-carousel-clicktracking",
+  "version": "0.2.0",
+  "main": "src/responsive-carousel.clicktracking.js",
+  "author": "Ron. Adams",
+  "dependencies": {
+    "jquery": "~1.7.2",
+    "filementgroup-responsive-carousel" : "0.2.0"
+  }
+}
