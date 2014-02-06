@@ -1,6 +1,6 @@
 # Responsive Carousel Click Tracking
 
-An extension for the filamentgroup responsive-carousel to enable Google Analytics click tracking.
+A jQuery plugin for the [Filamentgroup responsive-carousel](https://github.com/filamentgroup/responsive-carousel/) to enable Google Analytics click tracking.
 
 This plugin will simply push tracking parameters into Google Analytics `_gaq` object. 
 
@@ -10,9 +10,8 @@ This plugin will simply push tracking parameters into Google Analytics `_gaq` ob
 * Add Google Analytics
 * Add jQuery
 * Add [Filamentgroup responsive-carousel](https://github.com/filamentgroup/responsive-carousel/) javascript and CSS.
-* Add Filamentgroups responsive-carousel javascript and CSS
 * Add this responsive-carousel.clicktracking.js
-** Modify the `data-clicktracking-*` parameters to be passed int the `_gaq`.
+* Modify the `data-clicktracking-*` parameters to be passed int the `_gaq`.
 
 In your web page:
 
@@ -42,7 +41,7 @@ Check out the [`test/functional/`](http://ronaldjadams.github.com/responsive-car
 
 ## Authors
 
-* [Ron. Adams](https://github.com/ronaldjadams - [@ronaldjadams](http://twitter.com/ronaldjadams)
+* [Ron. Adams](https://github.com/ronaldjadams) - [@ronaldjadams](http://twitter.com/ronaldjadams)
 * Created at [Nara Logics](http://nara.me/)
 
 ## Licence
